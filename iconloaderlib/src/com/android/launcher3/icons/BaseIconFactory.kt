@@ -465,6 +465,8 @@ constructor(
                 .7f *
                 (1f / (1 + 2 * AdaptiveIconDrawable.getExtraInsetFraction()))
 
+        @JvmField val CONFIG_HINT_NO_WRAP: Int = 1 shl 30
+
         const val MODE_DEFAULT: Int = 0
         const val MODE_WITH_SHADOW: Int = 1
         const val MODE_HARDWARE: Int = 1 shl 1
